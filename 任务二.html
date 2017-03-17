@@ -1,0 +1,393 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <style>
+        body,h1,h2,h3,h4,h5,h6,hr,p,blockquote,dl,dt,dd,ul,ol,li,pre,form,fieldset,legend,button,input,textarea,th,td{
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            background: #cdcdcd;
+            overflow-x: hidden;
+        }
+        div{
+            background: white;
+        }
+        .FontColor{
+            color: gray;
+        }
+        /*导航栏开始*/
+        .header{
+            height: 60px;
+            background: #333333;
+        }
+        .header span{
+            display: inline-block;
+            width: 121px;
+            height: 39px;
+            /*设置百度logo精灵图*/
+            background: url(images/task_1_2_1.jpg) no-repeat -40px -10px;
+            margin-left: 35px;
+            margin-top: 10px;
+        }
+        .header .NavigationBar{
+            float: right;
+            height: 60px;
+        }
+        .header .NavigationBar li{
+            width: 80px;
+            height: 60px;
+            float: left;
+            line-height: 60px;
+        }
+        .header .NavigationBar li a{
+            color: white;
+            /*去掉超链接的下划线*/
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 14px;
+        }
+        .header .NavigationBar .Cruelworld{
+            color: gray;
+        }
+        /*导航栏结束*/
+
+        .content1{
+            margin: 15px 20px;
+            border: 1px solid gray;
+            border-right: none;
+            border-bottom: none;
+            box-sizing: border-box;
+            box-shadow: 2px 2px 2px gray;
+            padding: 35px 20px;
+        }
+
+        h1,h2,.FontColor{
+            margin-bottom: 10px;
+        }
+
+        .p1{
+            text-indent: 2em;
+        }
+
+        /*第二个框中的列表前面的小黑点*/
+        .content1 ul li{
+            list-style-type: none;
+        }
+
+        /*第三个框-图片框开始*/
+        .content1 .world1{
+            width: 90px;
+            height: 90px;
+            border: 1px solid gray;
+            box-sizing: border-box;
+            text-align: center;
+            margin-left: 50px;
+            margin-top: 10px;
+        }
+        .world1 span{
+            font-size: 8px;
+            display: inline-block;
+            margin-bottom: 5px;
+        }
+        .world1 img{
+            width: 70px;
+            height: 55px;
+        }
+        /*第三个框-图片框结束*/
+
+        /*第四个框开始*/
+        .content1 ol{
+            margin-left: 50px;
+        }
+        .content1 table{
+            width: 1250px;
+            height: 132px;
+            background: #cdcdcd;
+            margin: 0 auto;
+
+        }
+        .content1 table tr{
+            background: white;
+        }
+        .content1 .tableheader{
+            background: #282828;
+            color: white;
+        }
+        .content1 .tablebottom{
+            background: #a0a0a0;
+        }
+
+        /*最后一个框开始*/
+        .lastbox{
+            width: 600px;
+            height: 400px;
+            margin: 0 auto;
+            /*background: skyblue;*/
+        }
+        .lastbox .line{
+            width: 300px;
+            height: 40px;
+            /*background: blue;*/
+        }
+        .lastbox .line span{
+            width: 115px;
+            height: 30px;
+            /*background: red;*/
+            float: left;
+            text-align: right;
+            line-height: 30px;
+        }
+        .lastbox .line div>input{
+            float: right;
+            height: 25px;
+        }
+        .lastbox p{
+            margin-left: 126px;
+            height: 30px;
+            /*line-height: 30px;*/
+        }
+
+        .lastbox .person{
+            width: 300px;
+            height: 90px;
+        }
+        .lastbox .person span{
+            width: 115px;
+            height: 30px;
+            float: left;
+            text-align: right;
+            line-height: 30px;
+        }
+        .lastbox .person textarea{
+            width: 400px;
+            height: 80px;
+        }
+
+        .bottom-submit input{
+            width: 600px;
+            height: 30px;
+            background: skyblue;
+        }
+        /*最后一个框结束*/
+
+        .bottom{
+            /*height: 20px;*/
+            background-color: black;
+            color: white;
+            text-align: center;
+        }
+
+    </style>
+</head>
+<body>
+<div class="header">
+    <span></span>
+    <ul class="NavigationBar">
+        <li><a href="">大千世界</a></li>
+        <li><a href="">理想世界</a></li>
+        <li><a href="">小小世界</a></li>
+        <li><a href="" class="Cruelworld">残酷世界</a></li>
+    </ul>
+</div>
+
+<div class="content1">
+    <!--网站一级标题，一般一个网页只能使用一个H1标签-->
+    <h1>你好,世界</h1>
+    <!--这里是ul标签，里面有四个假链接-->
+    <!--文章二级标题-->
+    <h2 class="FontColor">大千世界无奇不有</h2>
+    <!--文章作者，发表时间-->
+    <p class="FontColor">@欧陶猗 2017年3月17日</p>
+    <!--段落 P标签-->
+    <p class="p1">我已经是个大男孩，在这个大千世界里/如果你已然离开我，不是什么重大的事/但我真正地感受到，我一定会很想念你，很想念你/我看见第一片落叶，是那样金黄而美好/外面是如此地寒冷，如同我内心的感受。</p>
+    <p>如今外面正在下雨，眼泪从我眼中滑落/这一切为何要发生，又为何要匆匆结束/你的手臂环绕着我，温暖得像火焰飞舞/但当我睁开眼睛时，你却已经匆匆离开/你的手臂环绕着我，温暖得像火焰飞舞/但当我睁开眼睛时，你却已经匆匆离开。</p>
+    <p>如今外面正在下雨，眼泪从我眼中滑落/这一切为何要发生，又为何要匆匆结束/你的手臂环绕着我，<a href="http://ife.baidu.com">温暖得像火焰飞舞</a>/但当我睁开眼睛时，<strong>你却</strong>已经匆匆离开。</p>
+    <!--插一张图片 img标签-->
+    <img src="images/bigbigworld.png" alt="图片丢失">
+    <!--再来一个段落-->
+    <p class="p1">我已经是个大男孩，在这个大千世界里/如果你已然离开我，不是什么重大的事/但我真正地感受到，我一定会很想念你，很想念你/我看见第一片落叶，是那样金黄而美好/外面是如此地寒冷，如同我内心的感受。</p>
+    <p>如今外面正在下雨，眼泪从我眼中滑落/这一切为何要发生，<strong>又为何要匆匆结束</strong>/你的手臂环绕着我，<a href="http://ife.baidu.com" target="_blank">温暖得像火焰飞舞</a>/但当我睁开眼睛时，你却已经匆匆离开/你的手臂环绕着我，温暖得像火焰飞舞/但当我睁开眼睛时，你却已经匆匆离开。</p>
+</div>
+
+<div class="content1">
+    <!--另一篇文章一级标题-->
+    <h1>理想世界</h1>
+    <!--二级标题-->
+    <h2 class="FontColor">理想世界是完美的</h2>
+    <!--作者，时间-->
+    <p class="FontColor">@欧陶猗 2017年3月17日</p>
+    <!--段落 P标签-->
+    <p class="p1">柏拉图（Plato，Πλάτeων， 公元前427年—公元前347年），古希腊伟大的哲学家，也是全部西方哲学乃至整个西方文化最伟大的哲学家和思想家之一。他和老师苏格拉底，学生亚里士多德并称为希腊三贤。另有其创造或发展的概念包括：柏拉图思想、柏拉图主义、柏拉图式爱情等。柏拉图的主要作品为对话录，其中绝大部分对话都有苏格拉底出场。但学术界普遍认为，其中的苏格拉底形象并不完全是历史上的苏格拉底。</p>
+    <p>柏拉图他描述了一个“理想世界”。这个理想世界首先跟他的洞穴说有关,也就是跟主观客观有关.他认为我们平常所见的都是主观的东西。而在那个<a href="http://ife.baidu.com">理想世界</a>中,所有一切事物都是客观的,<b>是准确的,是精确的。</b>就好比我们看到的东西只是客观世界中的事物的影子罢了,只是相象,并不是正确精确的。</p>
+    <p>我国哲学家冯友兰认为柏拉图的这个提法有错误。因为既然我们看到的东西只是理想世界中的事物的影子,我们这边好的事物在理想世界应该更好,但是同时坏的东西在理想世界也更坏。所以说理想世界不能称之为理想世界。</p>
+    <!--插入一张图片-->
+    <img src="images/perfectworld.png" alt="图片丢失" title="这是理想世界">
+    <!--列表项目-->
+    <ul>
+        <li>理想世界是完美的</li>
+        <li>理想世界是自由的</li>
+        <li>理想世界是纯粹的</li>
+    </ul>
+</div>
+
+<div class="content1">
+    <h2>世界</h2>
+    <div class="world1">
+    <span>完美世界1</span>
+    <img src="images/prefectworld1.jpg" alt="图片丢失">
+</div>
+    <div class="world1">
+        <span>完美世界1</span>
+        <img src="images/prefectworld1.jpg" alt="图片丢失">
+    </div>
+    <div class="world1">
+        <span>完美世界1</span>
+        <img src="images/prefectworld1.jpg" alt="图片丢失">
+    </div>
+    <div class="world1">
+        <span>完美世界1</span>
+        <img src="images/prefectworld1.jpg" alt="图片丢失">
+    </div>
+    <div class="world1">
+        <span>完美世界1</span>
+        <img src="images/prefectworld1.jpg" alt="图片丢失">
+    </div>
+    <div class="world1">
+        <span>完美世界1</span>
+        <img src="images/prefectworld1.jpg" alt="图片丢失">
+    </div>
+    <div class="world1">
+        <span>完美世界1</span>
+        <img src="images/prefectworld1.jpg" alt="图片丢失">
+    </div>
+    <div class="world1">
+        <span>完美世界1</span>
+        <img src="images/prefectworld1.jpg" alt="图片丢失">
+    </div>
+    <div class="world1">
+        <span>完美世界1</span>
+        <img src="images/prefectworld1.jpg" alt="图片丢失">
+    </div>
+    <div class="world1">
+        <span>完美世界1</span>
+        <img src="images/prefectworld1.jpg" alt="图片丢失">
+    </div>
+
+</div>
+
+<div class="content1">
+    <!--最后一篇文章-->
+    <h2>小小世界</h2>
+    <h3 class="FontColor">小小世界是可控的</h3>
+    <p class="FontColor">@欧陶猗 2017年3月17日</p>
+    <!--有序排列 ol标签-->
+    <ol>
+        <li>小</li>
+        <li>很小</li>
+        <li>极小</li>
+    </ol>
+    <!--表格 tabel 6行3列-->
+    <table >
+        <tr class="tableheader">
+            <th>小世界</th>
+            <th>小世界</th>
+            <th>小世界</th>
+        </tr>
+        <tr>
+            <td>小小</td>
+            <td>小小</td>
+            <td><a href="javascript:">操作</a></td>
+        </tr>
+        <tr>
+            <td>小小</td>
+            <td>小小</td>
+            <td><a href="javascript:">操作</a></td>
+        </tr>
+        <tr>
+            <td>小小</td>
+            <td>小小</td>
+            <td><a href="javascript:">操作</a></td>
+        </tr>
+        <tr>
+            <td>小小</td>
+            <td>小小</td>
+            <td><a href="javascript:">操作</a></td>
+        </tr>
+        <tr class="tablebottom">
+            <td>总计</td>
+            <td colspan="2">小小小</td>
+        </tr>
+    </table>
+</div>
+
+<div class="content1">
+    <!--侧栏-->
+    <h2>侧栏和侧栏标题</h2>
+    <!--Form 表单标签-->
+   <div class="lastbox">
+    <form action="http://ife.baidu.com">
+        <!--输入邮箱地址-->
+        <div class="line"><span>请输入邮箱地址</span>
+            <div><input type="email" name="eml"></div>
+        </div>
+        <p>邮箱地址请按要求输入</p>
+
+        <div class="line"><span>请输入密码</span>
+            <div><input type="password" name="pwd"></div>
+        </div>
+
+        <div class="line"><span>请重复输入密码</span>
+            <div><input type="password" name="pwd"></div>
+        </div>
+        <p>密码请为6-16位英文数字</p>
+
+             <!--radio标签-->
+             <div class="line"><span>性别</span>
+            <p><input type="radio" name="gender" value="man" >男
+            <input type="radio" name="gender" value="woman">女
+            </p>
+        </div>
+
+            <!--下拉列表 select-->
+            <div class="line"><span>城市</span>
+        <p>
+            <select>
+            <option >广州</option>
+            <option >上海</option>
+            <option selected="selected">北京</option>
+            <option >深圳</option>
+            </select>
+        </p>
+   </div>
+
+            <!--多选框 checkbox-->
+             <div class="line"><span>爱好</span>
+            <p>
+            <input type="checkbox" name="hobby" value="sport">运动
+            <input type="checkbox" name="hobby" value="art">艺术
+            <input type="checkbox" name="hobby" value="science">科学
+            </p>
+        </div>
+
+             <!--多行文本框 textarea-->
+            <div class="person"><span>个人描述</span>
+            <p class="person">
+            <textarea cols="1" rows="1" name="introduce"></textarea>
+            </p>
+             </div>
+
+    <div class="bottom-submit">
+        <!--提交 submit-->
+        <input type="submit" value="确认提交">
+    </div>
+    </form>
+   </div>
+</div>
+
+<div class="bottom">
+    <!--版权 字符实体-->
+    <p>版权所有&copy;</p>
+</div>
+</body>
+</html>
